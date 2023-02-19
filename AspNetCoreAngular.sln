@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularClient", "AngularClient", "{75E60C2B-3218-48E4-88FF-B413CF3DBC54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCoreBackend", "DotNetCoreBackend", "{BEB28015-E4EC-46C5-AA4B-09919779CD1F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "HealthCheck", "HealthCheck\HealthCheck.esproj", "{A626EEBB-57F3-4FE8-88C1-21E6909819C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckAPI", "HealthCheckAPI\HealthCheckAPI.csproj", "{3660570F-2F42-4E44-94BA-4FB6278B249C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3660570F-2F42-4E44-94BA-4FB6278B249C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3660570F-2F42-4E44-94BA-4FB6278B249C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3660570F-2F42-4E44-94BA-4FB6278B249C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3660570F-2F42-4E44-94BA-4FB6278B249C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A626EEBB-57F3-4FE8-88C1-21E6909819C5} = {75E60C2B-3218-48E4-88FF-B413CF3DBC54}
+		{3660570F-2F42-4E44-94BA-4FB6278B249C} = {BEB28015-E4EC-46C5-AA4B-09919779CD1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F96CECC-847C-46CA-B4AB-3C3127623391}
+	EndGlobalSection
+EndGlobal
